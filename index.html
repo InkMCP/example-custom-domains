@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Domains with Ink</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Custom Domains</h1>
+      <p class="tagline">Connect your own domain to your deployed app</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>How It Works</h2>
+        <ol>
+          <li>Deploy your app with Ink</li>
+          <li>Add your custom domain in settings</li>
+          <li>Update your DNS records</li>
+          <li>SSL is automatically provisioned</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>DNS Configuration</h2>
+        <div class="dns-example">
+          <div class="dns-row">
+            <span class="dns-type">CNAME</span>
+            <span class="dns-name">www</span>
+            <span class="dns-value">your-app.ink.run</span>
+          </div>
+          <div class="dns-row">
+            <span class="dns-type">CNAME</span>
+            <span class="dns-name">@</span>
+            <span class="dns-value">your-app.ink.run</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Features</h2>
+        <ul>
+          <li>Automatic SSL/TLS certificates</li>
+          <li>Global CDN distribution</li>
+          <li>Zero-downtime domain switching</li>
+          <li>Support for apex and subdomains</li>
+        </ul>
+      </section>
+
+      <section class="cta">
+        <p>Ready to deploy?</p>
+        <a href="https://docs.ml.ink/quick-start" class="btn">Get Started with Ink</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built with <a href="https://ml.ink">Ink</a> &mdash; deployment platform for AI agents</p>
+    </footer>
+  </div>
+</body>
+</html>
